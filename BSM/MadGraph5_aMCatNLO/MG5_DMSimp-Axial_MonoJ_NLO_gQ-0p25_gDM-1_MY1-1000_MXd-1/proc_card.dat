@@ -1,0 +1,10 @@
+import DMsimp_s_spin1
+# Define multiparticle labels
+
+generate    p p > j xd xd~ / h w+ w- z a [QCD] @0
+add process p p > j j xd xd~ / h w+ w- z a [QCD] @1
+
+output MG5_DMSimp-Axial_MonoJ_NLO_gQ-0p25_gDM-1_MY1-1000_MXd-1 -nojpeg
+
+
+
